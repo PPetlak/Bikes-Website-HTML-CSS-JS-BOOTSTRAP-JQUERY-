@@ -1,0 +1,459 @@
+/*----LOGO----*/
+.navbar-brand img {
+	width: 70px;
+}
+
+/*----MENU ROZWIJANE----*/
+.dropdown:hover .dropdown-menu{
+	display: block;
+	margin-top: 0;
+}
+.navbar-nav a {
+	font-family: 'Roboto';
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.navbar-inverse { }
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #FCFF19}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #FCFF19}
+.dropdown-menu { background-color: #FCFF19}
+.dropdown-menu>a:hover { background-color: #FFEA00}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #FAFAFA}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #000000}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #000000}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #000000}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #000000;}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+
+/*----TŁO VIDEO----*/
+#center{
+	height:100%;
+	color: white;
+	text-align: center;
+}
+
+#dosklepu{
+	margin-top:40px;
+	margin-bottom:50px;
+	
+}
+#dosklepu a{
+	margin-top:200px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 15px;
+	border: 3px solid white;
+	color: #fff;
+	font-size:12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: 'Roboto';
+	letter-spacing: 2px;
+}
+
+#dosklepu a:active{
+	color:black;
+	font-size:11px;
+}
+
+#dosklepu a:hover{
+	color:#fcff19;
+	border: 3px solid #fcff19;
+}
+
+#srodek{
+	display: inline-block;
+	width:80%;
+	height:100%;
+	text-align: center;
+	top: 20%;
+}
+
+#srodek h1{
+	margin-top: 30%;
+	font-family: 'Roboto';
+	font-size: 50px;
+	padding:0;
+	text-align: center;
+}
+
+#srodek p{
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-size: 30px;
+	margin:0;
+}
+
+#przycisk{
+	margin-top: 20px;
+}
+
+#video-container{
+	z-index: -1;
+	padding:0;
+	margin:0;
+	background-image: url(img/tlo_glowne.jpg);
+	background-size: cover;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+
+#myVideo{
+	width:auto;
+	height:auto;
+	 min-width:100%;
+     min-height:100%;
+}
+
+#sterowanie{
+	 margin-top:50px;
+	 margin-bottom: 80px;
+	 height:50px;
+	width:100%;
+	text-align: center;
+}
+
+#sterowanie i {
+   font-size:55px;
+   color:grey;
+   opacity: 0.6;
+   padding-left: 20px;
+   transition-property: color;
+   transition-duration: 0.5s;
+   padding-bottom:30px;
+}
+
+#sterowanie i:hover{
+   color:#fcff19;
+}
+
+/*----KATEGORIE----*/
+#area1 {		
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+	background-image: url(img/tlo_dol.jpg);
+}
+
+#area1 h2{
+	margin:0;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+#obrazek1{
+	background-image: url(img/rower_maly_1.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	width:316px;
+	height: 256px;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+#obrazek2{
+	background-image: url(img/rower_maly_2.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	width:316px;
+	height: 256px;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+#obrazek3{
+	background-image: url(img/rower_maly_3.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	width:316px;
+	height: 256px;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+#obrazek1 h3{
+	text-align: center;
+	color:#fcff19;
+	padding-top:25%;
+	font-family: 'Roboto';
+	font-size:16px;	
+}
+
+#obrazek1 p{
+	color:#fff;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 100;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	font-size:15px;
+	height:15px;
+	padding: 5px;
+}
+
+#obrazek2 h3{
+	text-align: center;
+	color:#fcff19;
+	padding-top:25%;
+	font-family: 'Roboto';
+	font-size:16px;
+}
+
+#obrazek2 p{
+	color:#fff;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 100;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	font-size:15px;
+	height:15px;
+}
+
+#obrazek3 h3{
+	text-align: center;
+	color:#fcff19;
+	padding-top:25%;
+	font-family: 'Roboto';
+	font-size:16px;
+}
+
+#obrazek3 p{
+	color:#fff;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 100;;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	font-size:15px;
+	height:15px;
+}
+
+/*-------------SLIDER--------------*/
+.clearout {
+	height:20px;
+	clear:both;
+	}
+	
+	#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+	display:none;
+	}
+	
+	.nbs-flexisel-container {
+		position:relative;
+		max-width:100%;
+	}
+	.nbs-flexisel-ul {
+		position:relative;
+		width:99999px;
+		margin:0px;
+		padding:0px;
+		list-style-type:none;   
+		text-align:center;  
+		overflow: auto;
+	}
+	
+	.nbs-flexisel-inner {
+		position: relative;
+		overflow: hidden;
+		float:left;
+		width:100%;
+		background:white;
+	
+		
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;  
+	}
+	
+	.nbs-flexisel-item {
+		float:left;
+		margin:0px;
+		padding:0px;
+		cursor:pointer;
+		position:relative;
+		line-height:0px;
+	}
+	.nbs-flexisel-item img {
+		max-width: 80%;
+		cursor: pointer;
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}	
+
+/*** Navigation ***/
+	.nbs-flexisel-nav-left,
+	.nbs-flexisel-nav-right {
+		padding:5px 10px;
+		border-radius:15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;      
+		position: absolute;
+		cursor: pointer;
+		z-index: 4;
+		top: 50%;
+		transform: translateY(-50%);   
+		background: rgba(0,0,0,0.5);
+		color: #fff;     
+	}
+	
+	.nbs-flexisel-nav-left {
+		left: 10px;
+	}
+	
+	.nbs-flexisel-nav-left:before {
+		content: "<"
+	}
+	
+	.nbs-flexisel-nav-left.disabled {
+		opacity: 0.4;
+	}
+	
+	.nbs-flexisel-nav-right {
+		right: 5px;    
+	}
+	
+	.nbs-flexisel-nav-right:before {
+		content: ">"
+	}
+	
+	.nbs-flexisel-nav-right.disabled {
+		opacity: 0.4;
+	}
+
+
+/***FORMULARZ***/
+
+	.formularz
+	{
+		background-image: url(img/tlo_dol.jpg);
+	}
+	.formularz1
+	{
+		padding-top:100px;
+		
+	}
+	.formularz1 h2
+	{
+		padding-top:30px;
+		font-family: 'Roboto';
+		font-size: 30px;
+		
+	}
+	#map{
+		margin-top: 50px;
+		width: 100%;
+		height: 500px;
+		border:2px solid #ddd;
+	
+		
+	}
+	
+	.map1 h3{
+		text-align: center;
+		width: 100%;
+		font-family: 'Roboto';
+		font-size: 30px;
+	
+	}			
+			
+/***STOPKA***/
+#footer2{
+	margin:0;
+	height: 70px;
+	width: 100%;
+	background: black;
+	color: #818181;
+	overflow: hidden;
+}
+#footer2 p{
+	padding-top: 16px;
+	text-align: center;
+	font-family: 'PlayfairItalic';
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+
+/***SOCIAL***/
+.sticky-container{
+	padding:0px;
+	margin:0px;
+	position:fixed;
+	right:-103px;
+	top:230px;
+	width:210px;
+}
+.sticky li{
+	list-style-type:none;
+	background-color:#fff;
+	color:#ddd;
+	height:70px;
+	padding:0px;
+	margin:0px 0px 1px 0px;
+	transition:all 0.25s ease-in-out;
+	cursor:pointer;
+}
+.sticky li:hover{
+	margin-left:-115px;
+}
+.sticky li img{
+	float:left;
+	margin:5px 4px;
+	margin-right:5px;
+	width:60px;
+	height: 60px;
+}
+.sticky li p{
+	padding-top:12px;
+	margin:0px;
+	font-size:18px;
+	font-family: 'Roboto';
+}
+.sticky li p a{
+	text-decoration:none;
+	color:#2C3539;
+}
+.sticky li p a:hover{
+	text-decoration:underline;
+}			
+			
+/***SCROLLUP***/
+.scrollup{
+	width:60px;
+	height:60px;
+	opacity: 0.7;
+	position:fixed;
+	bottom:30px;
+	right:10%;
+	display:none;
+	text-indent:-9999px;
+	cursor: pointer;
+	transition-property: width, height;
+	transition-duration: 0.3s;
+}
+.scrollup:hover{
+ width:70px;
+	height:70px;
+}			

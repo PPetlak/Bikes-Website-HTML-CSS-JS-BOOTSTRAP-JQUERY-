@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warsztat 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css"><link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+  </head>
+<body>
+<!--################### MENU GÓRNE ###################-->
+<div class="container-fluid video">
+    <div class="row">
+       <div class=" ">
+            <div id="video-container">
+                <video class="d-none d-lg-block" autoplay muted loop id="myVideo">
+                    <source src="img/video.mp4" type="video/mp4" id="myVideo1">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+     
+<nav class="navbar navbar-expand-lg navbar-inverse ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo-rower.png" alt="tekst alternatywny" /></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div  class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#item1" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kategorie
+                    </a>
+                        <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#item1">Szosowe</a>
+                            <a class="dropdown-item" href="#">Przełajowe</a>
+                            <a class="dropdown-item" href="#">Gravel</a>
+                            <a class="dropdown-item" href="#">Miejskie</a>
+                            <a class="dropdown-item" href="#">MTB</a>
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link \" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serwis
+                    </a>
+                        <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Podstawowy</a>
+                            <a class="dropdown-item" href="#">Podstawowy+</a>
+                            <a class="dropdown-item" href="#">Profesjonalny</a>
+                            <a class="dropdown-item" href="#">Profesjonalny+</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Jak naprawić
+                    </a>
+                                        
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O nas
+                    </a>
+                        <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Historia Firmy</a>
+                            <a class="dropdown-item" href="#">Kontakt</a>
+                            <a class="dropdown-item" href="#">Lokalizacja</a>
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--TŁO VIDEO ######################-->
+<div class="row">
+    <div class="col-12">
+        <div id="center">
+            <div id="srodek">
+            <h1>ŚWIAT ROWERÓW SZOSOWYCH</h1><br/>
+            <div ><p>Lorem<font color="#fcff19"> ipsum dolor</font> sit amet <font color="#fcff19"> consectetur</font> adipiscing<font color="#fcff19">  elit.</font></p>
+            </div>
+            <div id="dosklepu" >
+                <a href="#"  >IDŹ DO SKLEPU</a>
+            </div>
+                <div class="d-none d-lg-block" id="sterowanie">
+                    <i class="far fa-play-circle"  onclick="document.getElementById('myVideo').play()"><a href="#" ></a></i>
+                    <i class="far fa-pause-circle" onclick="document.getElementById('myVideo').pause()"><a href="#"></a></i>
+                </div>
+            </div>                       
+        </div>
+    </div>
+</div>
+<!--KATEGORIE #######################-->
+<div class="row">
+    <div class="col-12">
+        <div id="area1">
+            <h2 id="item1">KATEGORIE</h2>
+            <div class="row" id="obrazki">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="obrazek1">
+                        <div id="obrazek1" >
+                            <h3>OSTRE KOŁO</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-sm-12 col-lg-4 ">
+                        <div class="obrazek2">
+                          <div id="obrazek2" onclick="link('#')">
+                            <h3>SERIA PREMIUM</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                           
+                          </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-12 col-lg-4 ">
+                            <div class="obrazek3">
+                                <div id="obrazek3">
+                                    <h3>MIEJSKIE</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+            </div>   
+        </div>
+    </div>
+</div>                        
+<!--SLIDER #########################-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="slider">
+                <ul id="slider">
+          <li><div class="slide">
+                <div id="bike1"><img src="img/rower_1.jpg" alt="tekst alternatywny" />
+                <p><strong>GIANT ANYROAD</strong> &nbsp; &nbsp; &nbsp; &nbsp;2999 zł</p>
+              </div>
+          </li>
+          <li>
+              <div class="slide">
+              <div id="bike1"><img src="img/rower_2.jpg" alt="tekst alternatywny" />
+                <p><strong>GIANT CONTEND 2</strong> &nbsp; &nbsp; &nbsp; &nbsp;2499 zł</p>
+              </div>
+              </div>
+          </li>
+          <li><div class="slide">
+            <div id="bike1"><img src="img/rower_3.jpg" alt="tekst alternatywny" />
+                <p><strong>BATAVUS LADY</strong> &nbsp; &nbsp; &nbsp; &nbsp;2899 zł</p>
+              </div>                                           
+           
+           </div></li>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FORMULARZ#-->
+<div class="container-fluid formularz">
+        <div class="row">
+            <div class="col-xs-6  col-md-6 col-xl-4 mx-auto text-center formularz1">
+                    <div class="write-to-us-left">
+                        <h2 class="text-uppercase ">NAPISZ DO NAS</h2>
+                        <form action="">
+                            <label for="name" class="form-control-label"></label>
+                            <input type="text" id="name" class="form-control text-center"  placeholder="Imię i nazwisko">
+                            <label for="email" class="form-control-label"></label>
+                            <input type="email" id="email" class="form-control text-center"  placeholder="twoj_adres@email.com">
+                            <label for="msg-title" class="form-control-label"></label>
+                            <input type="text" id="msg-title" class="form-control text-center"  placeholder="Tytuł wiadomości">
+                            <label for="message" class="form-control-label"></label>
+                            <textarea id="message" cols="30" rows="5" class="form-control"  placeholder="Wiadomość"></textarea>
+            
+                            <button class="btn btn-success centered mt-4">Wyślij wiadomość</button>
+                        </form>
+                    </div>
+            </div>
+        </div>        
+<!--MAPA ##############-->
+    <div class="container-fluid">
+        <div class="col  map1 text-center mt-5">
+        <h3>TUTAJ JESTEŚMY</h3>
+            <div class="col" id="map">
+            </div>
+        </div>
+    </div>
+</div>
+<!--SOCIAL  #########################-->
+<img src="img/scrollup.png" alt="tekst alternatywny" class="scrollup"/>
+<div class="sticky-container d-none d-sm-block">
+      <ul class="sticky">
+          <li>
+              <img src="img/facebook.png" width="32" height="32">
+              <p><a href="https://www.facebook.com" target="_blank">Zalajkuj<br>na Facebook</a></p>
+          </li>
+          <li>
+              <img src="img/twitter.png" width="32" height="32">
+              <p><a href="https://twitter.com" target="_blank">Obserwuj nas na<br>Twitter</a></p>
+          </li>
+         <li>
+              <img src="img/youtube.png" width="32" height="32">
+              <p><a href="http://www.youtube.com" target="_blank">Daj Suba na<br>YouTube</a></p>
+          </li>
+        
+      </ul>
+</div>                         
+<!--STOPKA ########################-->
+</div>
+<div id="footer2"><p>Copyright   &copy;2018@ppetlak</p>
+</div>
+<!-- sekcja JavaScript  -->
+<script  src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js.js" language=javascript type="text/javascript"></script>
+</body>
+</html>
